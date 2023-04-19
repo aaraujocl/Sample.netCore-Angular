@@ -1,0 +1,12 @@
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\bin\Debug\net5.0\Sample.Core.deps.json
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\bin\Debug\net5.0\Sample.Core.dll
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\bin\Debug\net5.0\Sample.Core.pdb
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.csproj.AssemblyReference.cache
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.AssemblyInfoInputs.cache
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.AssemblyInfo.cs
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.csproj.CoreCompileInputs.cache
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.dll
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\refint\Sample.Core.dll
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\Sample.Core.pdb
+F:\Examenes\Examen Angular Sp Net Core Student\Sample\Sample.Core\obj\Debug\net5.0\ref\Sample.Core.dll

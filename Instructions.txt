@@ -1,0 +1,12 @@
+Run API
+* Sample Folder
+* Verify file appsettings.json in line 3 
+  "CleanArchConnectionString": "Data Source= F:\\database\\sample.db3;Cache=Shared" replace for you ubication
+
+Run WEB
+* SampleWeb Folder
+* Verify file environment.development.ts, here is the Api configuration
+* Execute ng install
+* Execute ng serve
+* UserName a.araujo
+* Password 123456
