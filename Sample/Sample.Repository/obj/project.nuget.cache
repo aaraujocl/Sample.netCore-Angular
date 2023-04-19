@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFx6dunBWVhsWAwoKWN6KgR+RnIdaHapKB9D6HSUszSrrtEhETUsLT95McC7LW7Q8GKw4nd45Az8CYROrhZ8dQ==",
+  "dgSpecHash": "SMthvy7HKUN6yv5ib/DIi/jCvnNGRbG6gQV1VOu/xdGwIYZmt8sLC3tI7YhZ/N/ea1uJ4106JiIgxEnnSTTVew==",
   "success": true,
-  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj",
+  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

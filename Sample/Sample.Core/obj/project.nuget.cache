@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9/bzb710XDm123bKpbgIAWK4n/PUbJibimPkJsKWD0gHY0NO8ynGRyA5kqrpZ4W96uXLn9KzrNqzR2icq02bJA==",
+  "dgSpecHash": "JAr+Hnl0tZoIRxvDyQovO1ONz1EtCOmLK6M9CjlWCZIh20ploUn6BJVViUVJhxwvKtLWjI0RDiYPVASMY5WNDw==",
   "success": true,
-  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj",
+  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

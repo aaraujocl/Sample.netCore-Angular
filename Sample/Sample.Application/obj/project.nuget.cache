@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pa1jFfJekVisinBqWd6sZFnhJbcJmbNttXRDWhrYCVmESxAbdhUYsHOohk6n7kGRb319cjHZXX8azYBENbxXag==",
+  "dgSpecHash": "fdjj/J8ldapFNlxuPVa6j1n6+au3WnzHzHaX1yo5Xv0q0PcOgqanMJSWITDSOrF3KOgBD4LZDmPdmefG7MfJaw==",
   "success": true,
-  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\Sample.Application.csproj",
+  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\Sample.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",

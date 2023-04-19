@@ -26,14 +26,10 @@ export class StudentService {
     return this.httpClient.get(endpoint, { headers: httpHeaders }).pipe(
       take(1),
       map((entity: any) => {
-        //this.loadingService.setLoading(false);
-        // Return the categoria
         return entity;
       }),
       switchMap((entity) => {
         if (!entity) {
-          //this.loadingService.setLoading(false);
-          //return throwError(() => new Error('Could not found categoria with id of ' + id + '!'));
         }
 
         return of(entity);
@@ -56,7 +52,6 @@ export class StudentService {
   }
 
   add(id: number = 0, entity: any) {
-    //this.loadingService.setLoading(true);
     const httpHeaders = new HttpHeaders().set(
       'Content-Type',
       'application/json'
@@ -76,7 +71,6 @@ export class StudentService {
   }
 
   update(id: number, entity: any) {
-    //this.loadingService.setLoading(true);
     const httpHeaders = new HttpHeaders().set(
       'Content-Type',
       'application/json'
@@ -100,18 +94,15 @@ export class StudentService {
       'Content-Type',
       'application/json'
     );
-    //this.loadingService.setLoading(true);
+
     const endpoint: any = this.uriapi + 'api/student/' + id;
     return this.httpClient
       .delete<boolean>(endpoint, { headers: httpHeaders })
       .pipe(
         map((isDeleted: boolean) => {
-          //this.loadingService.setLoading(false);
           return isDeleted;
         }),
         catchError((error: HttpErrorResponse): Observable<any> => {
-          //this.loadingService.setLoading(false);
-          //this.toastService.showErrorToast('Error ', error.message);
           return of(null); // or any other stream like of('') etc.
         })
       );

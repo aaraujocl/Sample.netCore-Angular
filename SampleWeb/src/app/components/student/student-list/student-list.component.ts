@@ -23,12 +23,6 @@ export class StudentListComponent implements OnInit {
     this.service.listView().subscribe({
       next: (response) => {
         this.List = response as any[];
-        //this.lstAlmacenes.sort();
-        //this.dataSource = new MatTableDataSource(this.lstAlmacenes);
-        //this.dataSource.paginator = this.paginator;
-        //this.LengthTable = this.lstAlmacenes.length;
-        //this.sortedData = this.lstAlmacenes.slice();
-        //this.loading = false;
       },
       error: (error: HttpErrorResponse) => {
         //this.loading = false;
@@ -47,9 +41,6 @@ export class StudentListComponent implements OnInit {
     this.service.delete(this.id).subscribe({
       next: () => {
         this.list();
-        //this.loading = false;
-        //this.handlePageChange(1);
-        //this.listarCategorias();
       },
       error: (error: HttpErrorResponse) => {
         //this.loading = false;

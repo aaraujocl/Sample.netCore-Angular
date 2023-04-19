@@ -1,9 +1,11 @@
 Run API
+* Asp Net Core 5.0
 * Sample Folder
 * Verify file appsettings.json in line 3 
   "CleanArchConnectionString": "Data Source= F:\\database\\sample.db3;Cache=Shared" replace for you ubication
 
 Run WEB
+* Angular 14
 * SampleWeb Folder
 * Verify file environment.development.ts, here is the Api configuration
 * Execute ng install

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pg3PhZRaohOe/bYTvEVZz1CMeFX+W46e/uJWA6UiujAAYA0rmfMnPGZ1woBfzO15uhjo3+UkYxTn8jFZaxXCQw==",
+  "dgSpecHash": "JXk4D7KoUnA7MSkm3bQw6W7GXQeVd1zgaRyruFj/rnVSOjuXnoZIaOfXPljSrRpgbnhK7ka9u7mnqYAm/8iuWQ==",
   "success": true,
-  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj",
+  "projectFilePath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

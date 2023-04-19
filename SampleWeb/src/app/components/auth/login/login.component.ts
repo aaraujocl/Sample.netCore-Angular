@@ -12,6 +12,8 @@ import { StorageserviceService } from '../../service/storageservice.service';
 export class LoginComponent implements OnInit {
   formuser: FormGroup = new FormGroup({});
   loading = false;
+  showmessage: boolean = false;
+  typemessage: string = '';
 
   constructor(
     private router: Router,
@@ -56,14 +58,20 @@ export class LoginComponent implements OnInit {
     const value = this.formuser.value;
     this.loginService.login(value.username, value.password).subscribe({
       next: (response) => {
-        this.storageService.setCurrentSession(response);
-        this.router.navigate(['main/dashboard']);
-        this.loading = false;
+        console.log(response);
+        if (response) {
+          this.storageService.setCurrentSession(response);
+          this.router.navigate(['main/dashboard']);
+          this.loading = false;
+        } else {
+          this.showmessage = true;
+          this.typemessage = 'faild check data';
+        }
       },
       error: (error) => {
         this.loading = false;
         if (error.status === 404) {
-          alert('Usuario o Contraseña incorrectos ');
+          this.showmessage = true;
         }
       },
     });

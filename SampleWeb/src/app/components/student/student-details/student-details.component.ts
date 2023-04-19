@@ -13,6 +13,8 @@ export class StudentDetailsComponent implements OnInit {
   registrationForm!: FormGroup;
   isNew: boolean = true;
   id = 0;
+  typemessage: string = '';
+  showmessage: boolean = false;
   patternombreydescripcion =
     /^[a-zA-Z\u00C0-\u00FF\s\-0-9\.\,\#\%\$\-\_\*\/\&\"\°\¡\!\(\)]*$/;
 
@@ -112,8 +114,11 @@ export class StudentDetailsComponent implements OnInit {
     const value = this.registrationForm.value;
     this.studentService.save(this.id, value, this.isNew).subscribe({
       next: () => {
-        if (this.isNew) this.registrationForm.reset();
-        else this.router.navigate(['/main/dashboard/component/student-list']);
+        if (this.isNew) {
+          this.typemessage = 'success';
+          this.showmessage = true;
+          this.registrationForm.reset();
+        } else this.router.navigate(['/main/dashboard/component/student-list']);
       },
       error: (error: HttpErrorResponse) => {
         if (error.status === 404) {
@@ -121,5 +126,9 @@ export class StudentDetailsComponent implements OnInit {
         }
       },
     });
+  }
+
+  back() {
+    this.router.navigate(['/main/dashboard/component/student-list']);
   }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj": {}
+    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj": {}
   },
   "projects": {
-    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj": {
+    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj",
+        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj",
         "projectName": "Sample.Api.Students",
-        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj",
+        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Api.Students\\Sample.Api.Students.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Api.Students\\obj\\",
+        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Api.Students\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\Sample.Application.csproj": {
-                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\Sample.Application.csproj"
+              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\Sample.Application.csproj": {
+                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\Sample.Application.csproj"
               },
-              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj": {
-                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj"
+              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj": {
+                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\Sample.Application.csproj": {
+    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\Sample.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\Sample.Application.csproj",
+        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\Sample.Application.csproj",
         "projectName": "Sample.Application",
-        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\Sample.Application.csproj",
+        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\Sample.Application.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Application\\obj\\",
+        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,11 +123,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj": {
-                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj"
+              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj": {
+                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj"
               },
-              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj": {
-                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj"
+              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj": {
+                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj": {
+    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj",
+        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj",
         "projectName": "Sample.Core",
-        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj",
+        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\obj\\",
+        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,14 +230,14 @@
         }
       }
     },
-    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj": {
+    "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj",
+        "projectUniqueName": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj",
         "projectName": "Sample.Repository",
-        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\Sample.Repository.csproj",
+        "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\Sample.Repository.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Repository\\obj\\",
+        "outputPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,8 +254,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj": {
-                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample\\Sample.Core\\Sample.Core.csproj"
+              "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj": {
+                "projectPath": "F:\\Examenes\\Examen Angular Sp Net Core Student\\Sample.netCore-Angular\\Sample\\Sample.Core\\Sample.Core.csproj"
               }
             }
           }
