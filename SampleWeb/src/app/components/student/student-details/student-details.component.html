@@ -1,0 +1,131 @@
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Student Details</h6>
+    </div>
+    <div class="card-body">
+        <div class="row">
+
+            <div class="col-lg-7">
+                <div class="p-5">
+
+                    <form class="user" [formGroup]="registrationForm" (ngSubmit)="submit()">
+
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-user" formControlName="userName"
+                                placeholder="User Name">
+                            <div
+                                *ngIf="registrationForm.controls['userName']?.invalid  && (registrationForm.controls['userName']?.dirty || registrationForm.controls['userName']?.touched)">
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['userName']?.hasError('required')">
+                                    User Name is required
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['userName']?.hasError('pattern')">
+                                    User Name is incorrect
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['userName']?.hasError('minlength')">
+                                    User Name should have at least 3 symbols
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['userName']?.hasError('maxlength')">
+                                    User Name should have maximum 20 symbols
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-user" formControlName="firstName"
+                                placeholder="First Name">
+                            <div
+                                *ngIf="registrationForm.controls['firstName']?.invalid  && (registrationForm.controls['firstName']?.dirty || registrationForm.controls['firstName']?.touched)">
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['firstName']?.hasError('required')">
+                                    First Name is required
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['firstName']?.hasError('pattern')">
+                                    First Name is incorrect
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['firstName']?.hasError('minlength')">
+                                    First Name should have at least 3 symbols
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['firstName']?.hasError('maxlength')">
+                                    First Name should have maximum 20 symbols
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-user" formControlName="lastName"
+                                placeholder="Last Name">
+                            <div
+                                *ngIf="registrationForm.controls['lastName']?.invalid  && (registrationForm.controls['lastName']?.dirty || registrationForm.controls['lastName']?.touched)">
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['lastName']?.hasError('required')">
+                                    Last Name is required
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['lastName']?.hasError('pattern')">
+                                    Last Name is incorrect
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['lastName']?.hasError('minlength')">
+                                    Last Name should have at least 3 symbols
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['lastName']?.hasError('maxlength')">
+                                    Last Name should have maximum 20 symbols
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-user" formControlName="career"
+                                placeholder="Carreer">
+                            <div
+                                *ngIf="registrationForm.controls['career']?.invalid  && (registrationForm.controls['career']?.dirty || registrationForm.controls['career']?.touched)">
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['career']?.hasError('required')">
+                                    Career is required
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['career']?.hasError('pattern')">
+                                    Career is incorrect
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['career']?.hasError('minlength')">
+                                    Career should have at least 3 symbols
+                                </div>
+                                <div class="invalid-mensaje small"
+                                    *ngIf="registrationForm.controls['career']?.hasError('maxlength')">
+                                    Career should have maximum 50 symbols
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                <input type="number" class="form-control form-control-user" formControlName="age"
+                                    placeholder="Age">
+                                <div
+                                    *ngIf="registrationForm.controls['age']?.invalid  && (registrationForm.controls['age']?.dirty || registrationForm.controls['age']?.touched)">
+                                    <div class="invalid-mensaje small"
+                                        *ngIf="registrationForm.controls['age']?.hasError('required')">
+                                        Age is required
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-user btn-block">
+                            Register
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
